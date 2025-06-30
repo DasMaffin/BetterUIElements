@@ -9,7 +9,7 @@ namespace UnityEditor.UI
     /// Editor class used to edit UI Sprites.
     /// </summary>
 
-    [CustomEditor(typeof(Image), true)]
+    [CustomEditor(typeof(BetterImage), true)]
     [CanEditMultipleObjects]
     /// <summary>
     ///   Custom Editor for the Image Component.
