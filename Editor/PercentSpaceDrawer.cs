@@ -1,12 +1,12 @@
+using Maffin.BetterUI;
+using Maffin.ENums;
+using UnityEditor;
+using UnityEngine;
+
 namespace Maffin.PropertyDrawer
 {
-    using Maffin.BetterUI;
-    using Maffin.ENums;
-    using UnityEditor;
-    using UnityEngine;
-
     [CustomPropertyDrawer(typeof(PercentSpace))]
-    public class PercentSpaceDrawer : PropertyDrawer
+    public class PercentSpaceDrawer : UnityEditor.PropertyDrawer
     {
         private readonly GUIContent screenToggleContent = new GUIContent("", "Selected: use screen space.\nUnselected: use local (parent) space.");
 
